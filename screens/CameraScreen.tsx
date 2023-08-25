@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
   },
   contentContainer: {
     marginVertical: 64,
-    marginHorizontal: 36,
+    marginHorizontal: 28,
     flex: 1,
   },
   camera: {

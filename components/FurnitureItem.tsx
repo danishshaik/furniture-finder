@@ -15,8 +15,8 @@ const FurnitureItem = (props: Props) => {
             </View>
             <View style={styles.productInfoBlock}>
                 <View>
-                    <Text style={[styles.text, styles.headerText]}>{props.name}</Text>
-                    <Text style={[styles.text, styles.subHeaderText]}>by {props.designer}</Text>
+                    <Text style={[styles.text, styles.headerText]} numberOfLines={1}>{props.name}</Text>
+                    <Text style={[styles.text, styles.subHeaderText]} numberOfLines={1}>by {props.designer}</Text>
                 </View>
                 {/* <Text style={[styles.text, styles.body]}>Average price: <Text style={{fontWeight: 'bold'}}>${props.averagePrice}</Text></Text> */}
                 <TouchableOpacity style={styles.buyButton} onPress={() => {}}>
